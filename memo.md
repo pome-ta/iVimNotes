@@ -47,7 +47,7 @@ iVim の色々なことを書いていく
 `pip` でインストール
 
 ``` terminal
-python3 -m pip install
+python3 -m pip install　pyparsing
 ```
 
 
