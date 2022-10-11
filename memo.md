@@ -1,3 +1,22 @@
+# 📝 2022/10/11
+
+## lua
+
+```
+:lua print(_VERSION)
+```
+
+
+`5.3`
+
+
+```
+:lua print(jit.version)
+```
+
+global にjit が無い的な感じで怒られた？
+
+
 # 📝 2022/10/08
 
 iVim の色々なことを書いていく
