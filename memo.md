@@ -2,12 +2,10 @@
 
 [tani/vim-jetpack: The lightning-fast plugin manager, alternative to vim-plug](https://github.com/tani/vim-jetpack)
 
-
 vim-jetpack 導入テスト
 
 
 ## `:ter` の貼り付け問題
-
 
 一応の解決策として、
 
@@ -30,16 +28,12 @@ curl -fLo ~/.vim/pack/jetpack/opt/vim-jetpack/plugin/jetpack.vim --create-dirs h
 [External Command: curl · terrychou/iVim Wiki](https://github.com/terrychou/iVim/wiki/External-Command:-curl)
 
 
-
 [ViMをコンパイルするためにPythonとOpensslをコンパイルする](https://webbigdata.jp/study/post-9654?amp=1)
-
 
 
 ## plugin が入らん
 
 そもそも、git で外側管理してたら問題はない？
-
-
 
 
 
@@ -51,9 +45,7 @@ curl -fLo ~/.vim/pack/jetpack/opt/vim-jetpack/plugin/jetpack.vim --create-dirs h
 :lua print(_VERSION)
 ```
 
-
 `5.3`
-
 
 ```
 :lua print(jit.version)
@@ -113,5 +105,4 @@ iVim の色々なことを書いていく
 ``` terminal
 python3 -m pip install　pyparsing
 ```
-
 
