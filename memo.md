@@ -1,3 +1,48 @@
+# 📝 2022/12/31
+
+[tani/vim-jetpack: The lightning-fast plugin manager, alternative to vim-plug](https://github.com/tani/vim-jetpack)
+
+
+vim-jetpack 導入テスト
+
+
+## `:ter` の貼り付け問題
+
+
+一応の解決策として、
+
+```
+.ivish_history
+```
+
+へ、（最終行）
+
+
+```
+curl -fLo ~/.vim/pack/jetpack/opt/vim-jetpack/plugin/jetpack.vim --create-dirs https://raw.githubusercontent.com/tani/vim-jetpack/master/plugin/jetpack.vim
+```
+
+はりつけ
+
+
+## SSL の何かで蹴られる
+
+[External Command: curl · terrychou/iVim Wiki](https://github.com/terrychou/iVim/wiki/External-Command:-curl)
+
+
+
+[ViMをコンパイルするためにPythonとOpensslをコンパイルする](https://webbigdata.jp/study/post-9654?amp=1)
+
+
+
+## plugin が入らん
+
+そもそも、git で外側管理してたら問題はない？
+
+
+
+
+
 # 📝 2022/10/11
 
 ## lua
